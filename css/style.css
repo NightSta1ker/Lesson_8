@@ -1,0 +1,489 @@
+@import "null.css";
+@import "fonts.css";
+/* -----------------------------------Произвольная домашка----------------------------------- */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.content-poligon {
+	color: #070c2c;
+	background-image: url("../img/page_t.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+	margin: 0 auto 100px;
+}
+.content-poligon a {
+	text-decoration: underline;
+}
+header {
+	margin-bottom: 20px;
+}
+.header-content {
+	background-image: url("../img/head-bg.jpeg");
+	max-width: 1275px;
+	margin: 0 auto;
+}
+.content-poligon h2 {
+	font-family: "Rubik", sans-serif;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+}
+.content-poligon h3 {
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+	letter-spacing: 5px;
+	color: rgb(252, 228, 228);
+	text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5,
+		0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+}
+header img {
+	display: block;
+	max-height: 500px;
+	margin: 0 auto;
+	border-radius: 150px;
+}
+.main-content {
+	max-width: 1273px;
+	margin: 0 auto;
+	font-size: 20px;
+	font-family: "Rubik", sans-serif;
+}
+.naruto {
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 20px;
+	padding: 20px;
+	box-shadow: inset -1px 3px 8px 5px rgb(215, 160, 34), 2px 5px 16px 0px #0b325e, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.naruto-about {
+	background: url("../img/naruto2.png") 0 0/15% repeat-y, url("../img/naruto3.jpg") right/15% repeat-y,
+		rgba(251, 160, 34, 0.9);
+	margin-bottom: 20px;
+}
+.naruto-about p {
+	font-family: "Rubik", sans-serif;
+	line-height: 1.25;
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: justify;
+}
+.naruto-bg {
+	min-height: 300px;
+	background-image: url("../img/Naruto-back1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-bottom: 20px;
+	border: 5px solid #000;
+	background-position: center;
+}
+.naruto-about img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 5px 50px;
+}
+.naruto-info {
+	background-image: url("../img/konoha.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: 2px solid green;
+	padding: 25px 0px;
+	text-align: center;
+}
+.naruto-info img {
+	border-radius: 10%;
+	display: block;
+	margin: 20px auto;
+}
+.naruto-demons img {
+	margin-bottom: 0px;
+}
+.teachers-row div {
+	display: inline-block;
+}
+.teachers-row div:not(:last-child) {
+	margin-right: 30px;
+}
+.naruto-teachers {
+	margin-bottom: 30px;
+}
+.naruto-teachers img:hover {
+	background-color: rgba(248, 238, 238, 0.7);
+	transform: scale(1.04);
+}
+.naruto-teachers span {
+	color: #110c08;
+	padding: 2px;
+}
+.naruto-teachers .jiraya span {
+	color: red;
+}
+.naruto-teachers .hatake span {
+	color: #fff;
+}
+.umino {
+	display: inline-block;
+	background-color: rgba(19, 82, 26, 0.6);
+	padding: 5px;
+}
+.umino p {
+	max-width: 700px;
+	text-align: justify;
+	background-color: rgb(216, 216, 216);
+	font-size: 18px;
+	line-height: 1.4;
+	letter-spacing: 1px;
+	margin-top: 3px;
+	padding: 10px;
+	display: none;
+}
+.umino:hover {
+	border-radius: 10px;
+}
+.umino:hover span {
+	font-size: 22px;
+	padding: 20px 0;
+	color: #fbcd92;
+	letter-spacing: 2px;
+	font-style: italic;
+}
+.umino:hover p {
+	display: block;
+}
+
+.jiraya {
+	display: inline-block;
+	padding: 5px;
+	background-color: rgba(255, 255, 255, 0.6);
+	background-color: #feedde;
+}
+.jiraya p {
+	max-width: 700px;
+	text-align: justify;
+	background-color: #fb6234d2;
+	font-size: 18px;
+	line-height: 1.4;
+	letter-spacing: 1px;
+	padding: 10px;
+	display: none;
+}
+
+.jiraya:hover p {
+	display: block;
+}
+.jiraya:hover span {
+	font-size: 22px;
+	padding: 20px 0;
+	color: #821b1d;
+	letter-spacing: 2px;
+	font-style: italic;
+}
+.jiraya:hover {
+	border-radius: 10px;
+}
+
+.hatake {
+	display: inline-block;
+	padding: 5px;
+	background-color: rgba(19, 82, 26, 0.6);
+}
+.hatake p {
+	max-width: 700px;
+	text-align: justify;
+	background-color: rgba(102, 189, 145, 0.6);
+	font-size: 18px;
+	line-height: 1.4;
+	letter-spacing: 1px;
+	padding: 10px;
+	display: none;
+}
+
+.hatake:hover p {
+	display: block;
+}
+.hatake:hover span {
+	font-size: 22px;
+	padding: 20px 0;
+	color: #fff;
+	letter-spacing: 2px;
+	font-style: italic;
+}
+.hatake:hover {
+	border-radius: 10px;
+}
+
+.naruto-friends {
+	margin-bottom: 30px;
+}
+.friends-row span {
+	font-size: 20px;
+	padding: 2px 4px;
+	border-radius: 4px;
+}
+.friends-row a {
+	text-decoration: none;
+}
+.friends-row span:hover {
+	font-size: 25px;
+	padding: 4px 8px;
+	text-decoration: underline;
+}
+.friends-row span:not(:last-child) {
+	margin-right: 70px;
+}
+.naruto-friends img:hover {
+	background: radial-gradient(circle, rgba(240, 128, 90, 0.8) 51%, rgba(152, 49, 70, 0.8) 89%);
+	transform: scale(1.04);
+}
+.naruto-friends .naruto-name {
+	background-color: rgba(241, 127, 89, 0.6);
+	color: #dec955;
+}
+.naruto-friends .sakura-name {
+	color: #f36541;
+	background-color: rgba(234, 183, 190, 0.8);
+}
+.naruto-friends .saske-name {
+	color: #000;
+	background-color: rgba(9, 62, 106, 0.8);
+}
+
+.naruto-demons img:hover {
+	background: radial-gradient(circle, rgba(128, 66, 45, 0.8) 20%, rgba(5, 5, 5, 1) 89%);
+	transform: scale(1.04);
+}
+.family {
+	margin-bottom: 20px;
+	background-image: url("../img/naruto-family.jpg"),
+		radial-gradient(circle, rgba(254, 248, 190, 1) 28%, rgba(255, 255, 255, 1) 100%);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.family-bg {
+	background-image: url("../img/minato-kushina.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-bottom: 20px;
+	background-position: center;
+	min-height: 300px;
+	max-width: 1275px;
+	border: 5px solid #000;
+}
+.family > p {
+	margin: 0 auto;
+	max-width: 900px;
+	border: 1px solid #000;
+	margin-bottom: 20px;
+	padding: 50px;
+	text-align: justify;
+	box-shadow: 5px 5px 5px 0px #a19134, inset 4px 4px 15px 0px #807553, 5px 5px 15px 5px rgba(42, 219, 66, 0);
+}
+.family > p::first-line {
+	text-decoration: underline;
+}
+.family p:nth-child(1)::first-letter {
+	font-size: 22px;
+	font-weight: 700;
+}
+.minato {
+	max-width: 500px;
+	box-shadow: 5px 5px 5px 0px #a19134, inset 4px 4px 15px 0px #807553, 5px 5px 15px 5px rgba(42, 219, 66, 0);
+}
+.minato:hover::after {
+	content: "*Надпись на спине - Тень четвертого поколения";
+	background-image: url("../img/yondaime.jpg");
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 400px;
+	display: block;
+	background-position: top center;
+	margin-top: 20px;
+	color: #dec955;
+	font-style: italic;
+	font-size: 15px;
+	padding-top: 10px;
+}
+.minato p {
+	text-align: justify;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.minato img {
+	display: block;
+	margin: 0 auto;
+}
+.kushina {
+	max-width: 500px;
+	margin: 0 0 0 auto;
+	box-shadow: 5px 5px 5px 0px #e26d83, inset 4px 4px 15px 0px #df5c74, 5px 5px 15px 5px rgba(42, 219, 66, 0);
+}
+.kushina:hover::before {
+	content: "";
+	background-image: url("../img/kushina-technik.jpg");
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 400px;
+	background-size: cover;
+	display: block;
+}
+.kushina p {
+	text-align: justify;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.kushina img {
+	display: block;
+	margin: 0 auto;
+}
+.sakura {
+	margin-bottom: 20px;
+	background: linear-gradient(180deg, rgba(143, 198, 165, 1) 0%, rgba(233, 187, 190, 1) 65%);
+	background: url("../img/sakura-naruto.jpg") left top/20% no-repeat,
+		url("../img/sakura-saske.jfif") top right/20% no-repeat, url("../img/sakura-gif.gif") right bottom / 20% no-repeat,
+		url("../img/komanda7-sakura.png") left bottom / 20% no-repeat,
+		linear-gradient(180deg, rgba(143, 198, 165, 1) 0%, rgba(233, 187, 190, 1) 65%);
+}
+.sakura img {
+	display: block;
+	margin: 0 auto 10px;
+	border-radius: 5px 50px;
+}
+.sakura p {
+	max-width: 700px;
+	padding: 10px 40px;
+	margin: 0 auto;
+	text-align: justify;
+	text-shadow: 2px 2px 0px #7a7a7a;
+	color: #ffffff;
+}
+.sakura a {
+	background-color: yellow;
+	color: #011831;
+}
+.friends {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 1) 52%, rgba(255, 255, 255, 1) 72%);
+}
+.saske-bg {
+	background-image: url("../img/sharingan.jpg"),
+		linear-gradient(0deg, rgba(0, 0, 0, 0.7346288857339811) 0%, rgba(0, 0, 0, 1) 0%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-bottom: 20px;
+	background-position: center;
+	min-height: 1300px;
+	max-width: 1275px;
+}
+.sasuke {
+	background: url("../img/itachi.png") -100px 20px / auto no-repeat,
+		url("../img/uchiha-logo-2.jpg") 0 0 / cover no-repeat;
+}
+.sasuke h3 {
+	text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4;
+}
+.sasuke p {
+	color: rgb(218, 209, 209);
+	text-align: justify;
+	text-shadow: 2px 2px 2px brown;
+	padding: 0 10px;
+}
+.sasuke-content {
+	max-width: 500px;
+	margin: 0 0 0 auto;
+}
+.sasuke img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border-radius: 10px 10px;
+}
+/* -----------------------------------Макет из Figma----------------------------------- */
+
+.content-figma {
+	font-family: "Lato";
+	max-width: 810px;
+	margin: 0 auto;
+}
+.content-figma:target {
+	display: block;
+}
+.content-figma h2 {
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 1.3;
+	color: #1e212c;
+	margin-bottom: 92px;
+}
+
+.third-block {
+	max-width: 390px;
+	margin-bottom: 50px;
+}
+.third-block h3 {
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 8px;
+	color: #1e212c;
+}
+.third-block h2 {
+	margin-bottom: 40px;
+}
+.third-block-list {
+	margin-bottom: 48px;
+}
+.list li {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+	margin-bottom: 12px;
+}
+.list li:last-child {
+	margin-bottom: 0px;
+}
+.list-item::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/Vector.svg") 0 5px no-repeat;
+	min-width: 16px;
+	min-height: 22px;
+	margin-right: 16px;
+	/* padding-left: 32px; */
+}
+.third-block-btn a {
+	width: 161px;
+	height: 44px;
+	display: inline-block;
+	font-size: 14px;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	color: #ffffff;
+	text-align: center;
+	align-items: center;
+	border-radius: 5px;
+	line-height: 3.1;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+}
+.fourth-block h3 {
+	font-family: "Taviraj", serif;
+	font-size: 36px;
+	line-height: 1.1;
+	letter-spacing: 0.02em;
+	color: #333333;
+}
+.fourth-block h3::after {
+	content: "";
+	border-bottom: 1px solid #333333;
+	width: 65px;
+	display: block;
+	margin-top: 8px;
+}
+footer p {
+	font-size: 35px;
+	text-align: center;
+}
